@@ -78,5 +78,5 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 [fork]: https://github.com/Mradi-Kenya/distro-api/fork
 [pr]: https://github.com/Mradi-Kenya/distro-api/compare
-[style]: https://github.com/Mradi-Kenya/docs/principles
+[CSS style-guide]: hhttps://primer.style/css/principles
 
