@@ -41,6 +41,12 @@ interaction:
       RAILS_ENV: test
     command: bundle exec rspec
 
+  # A shortcut to run rubocop
+  rubocop:
+    descriptoin: Run Rubocop commands
+    service: rails
+    command: bundle exec rubocop
+
   rails:
     description: Run Rails commands
     service: rails
