@@ -79,8 +79,8 @@ RUN gem update --system && \
 RUN mkdir -p /app
 WORKDIR /app
 
-# Documemnt the port we will expose 5000
-EXPOSE 5000
+# Documemnt the port we will expose 5100
+EXPOSE 3000
 
 # Use Bash as the default command
 CMD ["/usr/bin/bash"]
