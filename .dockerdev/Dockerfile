@@ -52,7 +52,7 @@ RUN npm install -g yarn@$YARN_VERSION
 
 # Application dependencies
 COPY Aptfile /tmp/Aptfile
-RUN --mount=type-cache,target=/var/cache/apt,sharing=locked \
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
     --mount=type=cache,target=/var/lib/apt,sharing=locked \
     --mount=type=tmpfs,target=/var/log \
     apt-get update -qq && \
