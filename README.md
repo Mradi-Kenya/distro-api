@@ -1,3 +1,13 @@
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/41260290/226249042-40c9a247-9fa0-45dd-ae60-71bdc971fecc.png" 
+        alt="Distro Logo"
+  />
+</p>
+
+
+----
+
+
 # DISTRO - API
 
 GOAL: Enable distribution campaigns to be more structured and help in empowering logistics of ensuring the right person and all beneficiaries get what they were promised.
