@@ -1,6 +1,6 @@
-# README
+# DISTRO - API
 
-Enable distribution campaigns to be more structured and help in empowering logistics of ensuring the right person and all persons get their promise.
+GOAL: Enable distribution campaigns to be more structured and help in empowering logistics of ensuring the right person and all beneficiaries get what they were promised.
 
 ## Development
 
@@ -12,18 +12,21 @@ The api is built using `Ruby` as the primary language, and `Rails` as the prefer
 - Rails: currently at version `7.0.4`
 - Dip: A Docker compose wrapper, at version - `7.5`
 
-### How to install **Dip*
+### How to install **Dip**
 - `gem install dip` in your local ruby.
 - NB: Using a Ruby Version Manager is highly recommended: `rbenv` or `rvm`.
 
 ### How to setup the docker containers
-From scratch you should first build the containers
+From scratch you should first build the container images.
 - `dip build`
-When your local machine needs to setup the environment for the containers, the volumes, network etc.
+
+
+When your local machine needs to setup the environment for the containers i.e. the volumes, network etc.
 - `dip provision`
 
+
 ### How to start your services
-```ruby
+```sh
 # Rails Console
 dip rails c
 
@@ -60,6 +63,5 @@ dip rubocop
 
 # Shutdown all containers
 dip down
-#### 
 ```
 
